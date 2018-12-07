@@ -80,11 +80,14 @@ li.main-nav {
 a.main-nav {
   text-decoration: none;
 }
-a.main-nav:hover {
-  text-decoration: underline;
+a.main-nav:link {
+  color: white;
 }
 a.main-nav:visited {
   color: white;
+}
+a.main-nav:hover {
+  text-decoration: underline;
 }
 .hero-container {
   margin: 0;
@@ -167,11 +170,14 @@ li.footer-nav {
 a.footer-nav {
   text-decoration: none;
 }
-a.footer-nav:hover {
-  text-decoration: underline;
+a.footer-nav:link {
+  color: white;
 }
 a.footer-nav:visited {
   color: white;
+}
+a.footer-nav:hover {
+  text-decoration: underline;
 }
 audio {
   margin: 0 0 50px 50px;
