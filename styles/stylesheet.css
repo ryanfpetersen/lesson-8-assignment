@@ -163,6 +163,9 @@ div.instructor-bio {
   display: block;
   margin-bottom: 10px;
 }
+div.radio-buttons {
+  margin-bottom: 10px;
+}
 input[type="radio"] {
   display: inline;
 }

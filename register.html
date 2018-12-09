@@ -21,7 +21,7 @@
     </header>
     <div class="register-container">
       <h2>Register for an Archery Academy Course</h2>
-      <form class="register" action="" method="get">
+      <form class="register" method="get">
         <label>Select a class:
           <select name="classes">
             <option value="A101">A101 Basic Archery</option>
@@ -44,11 +44,12 @@
         <label>Birthday:
           <input type="date" name="bday">
         </label>
-        <label>Do you need to rent a bow or will you bring your own bow?<br>
+        <div class="radio-buttons">
+          Do you need to rent a bow or will you bring your own bow?<br>
           <input type="radio" name="bow-rental" value="rent-bow">I need to rent a bow<br>
           <input type="radio" name="bow-rental" value="own-bow">I will bring my own bow
-        </label>
-        <label>Is there anything else you would like to tell us?</br>
+        </div>
+        <label>Is there anything else you would like to tell us?<br>
           <textarea name="message" rows="8" cols="80"></textarea>
         </label>
         <input type="submit" value="Submit">
