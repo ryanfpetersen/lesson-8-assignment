@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Ryan Petersen">
+    <title>Straight to the Point Archery - Register</title>
+    <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+  </head>
+  <body>
+    <header>
+      <a href="index.html"><img class="header" src="media/archeryAcademy-logo-white.png" alt="archery academy logo"></a>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li>/</li>
+          <li><a href="instructors.html">Instructors</a></li>
+          <li>/</li>
+          <li><a class="active">Classes</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="register-container">
+      <h2>Register for an Archery Academy Course</h2>
+      <form class="register" action="" method="get">
+        <label>Select a class:
+          <select name="classes">
+            <option value="A101">A101 Basic Archery</option>
+            <option value="A102">A102 Intermediate Archery</option>
+            <option value="A103">A103 Advanced Archery</option>
+          </select>
+        </label>
+        <label>First Name:
+          <input type="text" name="first-name">
+        </label>
+        <label>Last Name:
+          <input type="text" name="last-name">
+        </label>
+        <label>E-mail:
+          <input type="email" name="email">
+        </label>
+        <label>Phone number:
+          <input type="tel" name="usrtel">
+        </label>
+        <label>Birthday:
+          <input type="date" name="bday">
+        </label>
+        <label>Do you need to rent a bow or will you bring your own bow?<br>
+          <input type="radio" name="bow-rental" value="rent-bow">I need to rent a bow<br>
+          <input type="radio" name="bow-rental" value="own-bow">I will bring my own bow
+        </label>
+        <label>Is there anything else you would like to tell us?</br>
+          <textarea name="message" rows="8" cols="80"></textarea>
+        </label>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+    <footer>
+      <img class="footer-logo" src="media/archeryAcademy-logo-white.png" alt="archery academy logo">
+      <p class="footer-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <nav class="footer-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li>/</li>
+          <li><a href="instructors.html">Instructors</a></li>
+          <li>/</li>
+          <li><a class="active">Classes</a></li>
+        </ul>
+      </nav>
+      <audio controls>
+        <source src="media/olympics-theme.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </footer>
+  </body>
