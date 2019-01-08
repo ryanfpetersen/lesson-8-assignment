@@ -20,39 +20,33 @@
       </nav>
     </header>
     <div class="register-container">
-      <h2>Register for an Archery Academy Course</h2>
+      <h1>Register for an Archery Academy Course</h1>
       <form class="register" method="get">
-        <label>Select a class:
-          <select name="classes">
-            <option value="A101">A101 Basic Archery</option>
-            <option value="A102">A102 Intermediate Archery</option>
-            <option value="A103">A103 Advanced Archery</option>
-          </select>
-        </label>
-        <label>First Name:
-          <input type="text" name="first-name">
-        </label>
-        <label>Last Name:
-          <input type="text" name="last-name">
-        </label>
-        <label>E-mail:
-          <input type="email" name="email">
-        </label>
-        <label>Phone number:
-          <input type="tel" name="usrtel">
-        </label>
-        <label>Birthday:
-          <input type="date" name="bday">
-        </label>
-        <div class="radio-buttons">
-          Do you need to rent a bow or will you bring your own bow?<br>
-          <input type="radio" name="bow-rental" value="rent-bow">I need to rent a bow<br>
-          <input type="radio" name="bow-rental" value="own-bow">I will bring my own bow
-        </div>
-        <label>Is there anything else you would like to tell us?<br>
-          <textarea name="message" rows="8" cols="80"></textarea>
-        </label>
-        <input type="submit" value="Submit">
+        <label for="classes">Select a class:</label>
+        <select name="classes" id="classes">
+          <option value="A101">A101 Basic Archery</option>
+          <option value="A102">A102 Intermediate Archery</option>
+          <option value="A103">A103 Advanced Archery</option>
+        </select>
+        <label for="first-name">First Name:</label>
+        <input type="text" name="first-name" id="first-name">
+        <label for="last-name">Last Name:</label>
+        <input type="text" name="last-name" id="last-name">
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email">
+        <label for="phone">Phone number:</label>
+        <input type="tel" name="usrtel" id="phone">
+        <label for="bday">Birthday:</label>
+        <input type="date" name="bday" id="bday">
+        <p>Do you need to rent a bow or will you bring your own bow?</p>
+        <label for="rent-bow"></label>
+        <input type="radio" name="bow-rental" value="rent-bow" id="rent-bow">I need to rent a bow<br>
+        <label for="own-bow"></label>
+        <input type="radio" name="bow-rental" value="own-bow" id="own-bow">I will bring my own bow
+        <p class="form-text">Is there anything else you would like to tell us?</p>
+        <textarea name="message" rows="8" cols="80" id="text-box"></textarea>
+        <label for="submit-button"></label>
+        <input type="submit" value="Submit" id="submit-button">
       </form>
     </div>
     <footer>
