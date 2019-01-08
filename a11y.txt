@@ -1,0 +1,19 @@
+A11y changes made to Archery site:
+
+1. Increased text contrast
+The Archery site style guide specifies a light blue text on white background for the
+vertical instructor profile. However the contrast ratio for this is 2.87:1, which fails all
+WCAG contrast levels. I changed the style to have dark grey text on a light grey background.
+The contract ratio is 7.95:1, which passes all WCAG tests.
+
+2. Added a hidden "Skip Text" link that allows user to skip the nav and go directly
+to the main content.
+
+2. Increased size and spacing of clickable elements
+Nav and register buttons
+
+3. Added labels to all form elements
+
+4. Ensured that all headers are semantic
+
+5. Added descriptive img alt text
